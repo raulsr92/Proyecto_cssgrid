@@ -1,0 +1,21 @@
+/*== Estilos_Universales ==*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color1:#f27a9e;
+    --color2:#f2c35b;
+    --color3:#70d5f2;
+    --color4: #f3e5d8;
+    --color5:#2b1e0d;
+}
+
+
+/*== Tipografías ==*/
+
+/*font-family: 'Roboto', sans-serif;*/
+/*font-family: 'Lilita One', sans-serif;*/
