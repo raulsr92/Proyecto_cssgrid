@@ -33,6 +33,16 @@ h1 {
 .p-content{
 	font-size: 1.5rem;
 	line-height: 2.25rem;
+    font-family: 'Roboto', sans-serif
 }
 
 /* == HIPERVÍNCULOS == */
+
+
+header{
+    background-color: var(--color1);
+}
+
+main .container-02{
+    background: url(./assets/imgs/guys.jpg);
+}
