@@ -19,3 +19,20 @@
 
 /*font-family: 'Roboto', sans-serif;*/
 /*font-family: 'Lilita One', sans-serif;*/
+
+:root {
+	font-size: 20px; /* MEDIDA BASE: 20px = 1rem */
+}
+
+h1 {
+	font-family: 'Lilita One', sans-serif;
+	font-size: 3rem;
+	line-height: 4.5rem;
+}
+
+.p-content{
+	font-size: 1.5rem;
+	line-height: 2.25rem;
+}
+
+/* == HIPERVÍNCULOS == */
