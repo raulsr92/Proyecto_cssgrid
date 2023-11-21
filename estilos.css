@@ -40,7 +40,7 @@ h1 {
 
 
 
-main .container-02{
+.container-02{
     background: url(./assets/imgs/guys.jpg);
 }
 
@@ -51,6 +51,33 @@ body{
     height: 100vh;
     background: var(--color4);
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+}
+
+/*== HIJOS DE LA GRILLA PRINCIPAL ==*/
+
+header{
+    grid-column: 1 / 13;
+    grid-row: 1 / 2;
+}
+
+.container-01{
+    grid-column: 1 / 6;
+    grid-row: 2 / 12;
+}
+
+.container-02{
+    grid-column: 6 / 10;
+    grid-row: 2 / 12;
+}
+
+.container-03{
+    grid-column: 10 / 13;
+    grid-row: 2 / 7;
+}
+
+.container-04{
+    grid-column: 10 / 13;
+    grid-row: 7 / 12;
 }
